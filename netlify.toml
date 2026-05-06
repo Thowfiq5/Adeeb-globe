@@ -1,0 +1,15 @@
+[build]
+  # The directory containing your static files
+  publish = "."
+
+# Ensure that the site-content.js is never aggressively cached by Netlify's CDN
+# This is crucial so that any manual updates to the default data take effect immediately.
+[[headers]]
+  for = "/site-content.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

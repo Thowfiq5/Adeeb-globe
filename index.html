@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeeb Group | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="site-content.js"></script>
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="tb-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <a href="tel:80023332">800 ADEEB (23332)</a>
+      </div>
+      <div class="tb-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <a href="mailto:post@adeebgroup.com">post@adeebgroup.com</a>
+      </div>
+      <div class="tb-item tb-right">
+        <a href="#">24/7 Customer Support</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="navbar">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="images/logo.png" alt="Adeeb Group Logo" class="header-logo">
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="support.html">Service Support</a>
+        <a href="csr.html">CSR</a>
+        <a href="news.html">Media Center</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- RUNNING SERVICES TICKER -->
+  <div class="services-ticker" aria-hidden="false">
+    <div class="container">
+      <div class="services-track">
+        <div class="service-item">Facilities Management Services</div>
+        <div class="service-item">MEP Contracting</div>
+        <div class="service-item">ELV Systems</div>
+        <div class="service-item">Specialized System</div>
+        <div class="service-item">Fit Out Services</div>
+        <div class="service-item">Soft Services</div>
+        <div class="service-item">ICT Solution</div>
+        <div class="service-item">Energy Management</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE DRAWER -->
+  <div class="drawer-overlay" id="mobileOverlay"></div>
+  <div class="drawer" id="mobileDrawer">
+    <div class="drawer-top">
+      <div class="logo">
+        <img src="images/logo.png" alt="Adeeb Group Logo" class="header-logo" style="max-height: 40px;">
+      </div>
+      <button class="drawer-x" id="drawerClose">✕</button>
+    </div>
+      <div class="drawer-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="support.html">Service Support</a>
+      <a href="csr.html">CSR</a>
+      <a href="news.html">Media Center</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+  </div>
+
+  <!-- MAIN HERO SLIDER -->
+  <section class="hero-slider" id="home">
+    <div class="slides" id="heroSlides">
+      <!-- Slides will be loaded dynamically -->
+    </div>
+    <!-- Controls -->
+    <button class="slider-btn prev" id="heroPrev">❮</button>
+    <button class="slider-btn next" id="heroNext">❯</button>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section bg-light">
+    <div class="container">
+      <h4 class="section-badge">Testimonials</h4>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="testimonials-grid" id="testimonialList">
+        <!-- Testimonials loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS / METRICS STRIP -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid" id="statsList">
+        <!-- Stats loaded dynamically -->
+      </div>
+    </div>
+  </section>
+  <!-- Our Work section removed -->
+
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer-top">
+      <div class="footer-col">
+        <img src="images/logo.png" alt="Adeeb Group Logo" class="footer-logo" style="max-height: 50px;">
+        <p style="margin-top:15px;">A leading IMS-certified Organization providing Facilities Management and MEP Contracting Services across the UAE.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Locations</h4>
+        <ul>
+          <li><a href="#">Abu Dhabi (Corporate Office)</a></li>
+          <li><a href="#">Dubai (Branch Office)</a></li>
+          <li><a href="#">Sharjah (Branch Office)</a></li>
+          <li><a href="#">Al Ain (Branch Office)</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="support.html">Service Support</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="admin.html" style="margin-top: 10px; display: inline-block; opacity: 0.7;">Admin: Manage Website</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <p>Monday to Friday: 8:00 AM to 5:30 PM<br>Saturday: 8:00 AM to 2:00 PM<br>Sunday: Closed</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>Copyright ©2026 adeebgroup. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
